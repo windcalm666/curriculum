@@ -41,12 +41,8 @@ public class Task1_5 {
       */
 
       for(int x = 1; x <= 9; x++) {
-        for(int y = 0; y <= 9; y++) {
-          if (y == 0){
-            System.out.print(x + "||");
-            continue;
-          }
-
+        System.out.print(x + "||");
+        for(int y = 1; y <= 9; y++) {
           System.out.print((x * y) + "|");
         }
         System.out.println();
