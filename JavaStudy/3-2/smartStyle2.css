@@ -1,0 +1,33 @@
+@media screen and (max-width: 767px) {
+  body {
+    width: 300px;
+  }
+  .center-left {
+    width: 100px;
+  }
+
+  .center-center, .center-top, .center-bottom {
+    width: 125px;
+  }
+
+  .center-right2 {
+    width: 75px;
+  }
+
+  .center-right-bottom {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  *   {
+    width: 150px;
+    float: none;
+  }
+
+  .clearfix::after { 
+    content: none;
+    display: none; 
+    clear: none;
+  }
+}
