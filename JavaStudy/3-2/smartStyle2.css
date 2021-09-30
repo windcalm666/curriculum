@@ -6,6 +6,10 @@
     width: 100px;
   }
 
+  .center-right {
+    width: 200px;
+  }
+
   .center-center, .center-top, .center-bottom {
     width: 125px;
   }
@@ -20,14 +24,18 @@
 }
 
 @media screen and (max-width: 479px) {
-  *   {
+  body,  .center-right-top,
+  .center-center, .center-right2, .center-top, .center-bottom, .center-right-bottom, .footer{
     width: 150px;
     float: none;
   }
 
-  .clearfix::after { 
-    content: none;
-    display: none; 
-    clear: none;
+  .center-left, .center-right{
+    width: 150px;
+    height: 100px;
+  }
+
+  .center {
+    height: 250px;
   }
 }

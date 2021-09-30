@@ -1,0 +1,37 @@
+@media screen and (max-width: 479px) {
+  .wrapper {
+    width:200px;
+    height: 200px;
+  }
+
+  .header {
+    width: 200px;
+    height: 100%;
+  }
+
+  .header-contents {
+    width: 60px;
+    height: 160px;
+    right: 70px;
+  }
+
+  .header-content-left,.header-content-center,.header-content-right {
+    float: none;
+    margin:0 0 10px 10px; 
+  }
+
+  .center-left {
+    width: 200px;
+  }
+
+  .center-right {
+    width: 200px;
+    padding: 20px 30px 10px 30px;
+    height: auto;
+  }
+
+  .center-contents {
+    width: 140px;
+
+  }
+}
