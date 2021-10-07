@@ -81,7 +81,7 @@ public class ExException {
 
             } catch (NullPointerException e) {
                 printException(e);
-            } catch (ArrayIndexOutOfBoundsException e) {
+            } catch (ClassCastException e) {
                 printException(e);
                 // 問③: クラスキャストの例外をキャッチしなさい。
                 // ルール: 上述の他の例外同様引、数名は「e」で記述すること。
