@@ -24,18 +24,59 @@
 }
 
 @media screen and (max-width: 479px) {
-  body,  .center-right-top,
-  .center-center, .center-right2, .center-top, .center-bottom, .center-right-bottom, .footer{
+  body{
     width: 150px;
+    height:75 0px;
+  }
+
+  .center{
+    width:150px;
+    height:500px;
+    float:none;
+  }
+
+  .center-left{
+    width:150px;
     float: none;
+  }
+
+  .center-top {
+    width:150px;
+    height: 50px;
+    float: none;
+  }
+
+  .center-bottom{
+    width: 150px;
+    height: 100px;
+  }
+
+  .center-center{
+    width: 150px;
+    height: 150px;
+    float:none;
+  }
+  
+  .center-right-top{
+    width:150px;
+    height: 300px;
+    float: none;
+  }
+
+  .center-right2{
+    width: 150px;
+    float:none;
+  }
+  .center-right-bottom {
+    height: 100px;
+    width: 150px;
+  }
+  .footer{
+    height: 100px;
   }
 
   .center-left, .center-right{
     width: 150px;
     height: 100px;
-  }
-
-  .center {
-    height: 250px;
   }
 }
