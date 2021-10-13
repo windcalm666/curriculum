@@ -81,11 +81,11 @@ public class ExException {
 
             } catch (NullPointerException e) {
                 printException(e);
-            } catch (ClassCastException e) {
+            } catch (ArrayIndexOutOfBoundsException e) {
                 printException(e);
                 // 問③: クラスキャストの例外をキャッチしなさい。
                 // ルール: 上述の他の例外同様引、数名は「e」で記述すること。
-            } catch (IllegalArgumentException e) {
+            } catch (ClassCastException e) {
                 printException(e);
             } finally {
                 System.out.println("リトライ回数 = " + retryCounter++);
