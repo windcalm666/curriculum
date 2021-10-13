@@ -32,7 +32,7 @@ body {
 .center-center {
   width: 150px;
   height: 100%;
-  float: left;
+  float: right;
 }
 
 .center-top {
@@ -49,7 +49,7 @@ body {
   width: 100px;
   height: 150px;
   background-color: #ff9e6b;
-  float: left;
+  float: right;
 }
 
 .center-right-bottom {
